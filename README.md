@@ -1,35 +1,34 @@
 # webvtt-smalt
 Target
 =========================
->realize the admission of read and edit webvtt file
+>作为rails第三方插件实现在线编辑vttww字幕文件
 
 Usage
 ---------------------------------------------
-* put webvtt folder under the app directory (rails)
-* add code under the controller
+* 将文件夹放在rails的app目录下
+* 引入插件
  ```
  require "webvtt"  
  ```
  
-* load file
+* 加载文件
 
  ```
  webvtt = WebVTT.read("filepath")
  ``` 
  
-* insert subtitles
+* 插入字幕
 
  ```
  webvtt.insert(start_time,end_time,subtitles)
  ``` 
  
-* delete subtitles
-
+* 删除字幕
  ```
  webvtt.delete(start_time,end_time)
  ```
  
-* the content of the subtitles file
+* 字幕信息
 
  ```
  webvtt.cues do |cue|
