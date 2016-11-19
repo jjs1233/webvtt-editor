@@ -1,3 +1,9 @@
+"""
+@author:   smalt(jjs1233@163.com)
+
+timestamp.rb
+~~~~~~~~~~~~~~~~
+"""
 module WebVTT
 	class Timestamp
 	    #时间戳转换成秒

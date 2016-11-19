@@ -1,3 +1,9 @@
+"""
+@author:   smalt(jjs1233@163.com)
+
+smalt.rb
+~~~~~~~~~~~~~~~~
+"""
 module WebVTT
 	class Smalt
 		attr_reader :header, :path, :filename,:cues,:new,:old
@@ -21,7 +27,7 @@ module WebVTT
 		      cues = @content.split("\n\n")
 		      @header = cues.shift
 		      header_lines = @header.split("\n").map(&:strip)
-
+		      @header.gsub!("\n","")
 		      if (header_lines[0] =~ /^WEBVTT/).nil?
 		        raise MalformedFile, "Not a valid WebVTT file"
 		      end

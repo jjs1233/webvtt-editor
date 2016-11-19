@@ -1,3 +1,9 @@
+"""
+@author:   smalt(jjs1233@163.com)
+
+vtt.rb
+~~~~~~~~~~~~~~~~
+"""
 module WebVTT
 	#读取文件
 	def self.read(f)

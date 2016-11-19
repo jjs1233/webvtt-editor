@@ -1,3 +1,9 @@
+"""
+@author:   smalt(jjs1233@163.com)
+
+cue.rb
+~~~~~~~~~~~~~~~~
+"""
 module WebVTT
 	class Cue
 	    attr_accessor :identifier, :start, :end, :style, :text
