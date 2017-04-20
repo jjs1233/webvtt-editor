@@ -11,7 +11,7 @@ if defined?(Encoding)
 end
 
 
-require "vtt/vtt.rb"
-require "vtt/cue.rb"
-require "vtt/timestamp.rb"
-require "vtt/smalt.rb"
+require "vtt/vtt"
+require "vtt/cue"
+require "vtt/timestamp"
+require "vtt/smalt"	
