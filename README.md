@@ -1,4 +1,4 @@
-# webvtt-smalt
+# webvtt-editor
 Target
 =========================
 >作为rails第三方插件实现在线编辑webvtt字幕文件
