@@ -8,7 +8,7 @@ Usage
 * 将文件夹放在rails的app目录下
 * 引入插件
  ```
- require "webvtt"  
+ gem "webvtt-editor"  
  ```
  
 * 加载文件
